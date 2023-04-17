@@ -97,4 +97,9 @@ def add_turma(id: int):
     turma.id = id
     return make_response(jsonify(turma.get_json()))
 
+
+
+
+
+
 app.run()
